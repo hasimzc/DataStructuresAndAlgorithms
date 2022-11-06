@@ -1,3 +1,7 @@
+'''
+                            Problem definition
+Given an array of integers arr and an integer k, find the k th largest element.                         
+'''
 import heapq
 def kth_largest(arr,k):
     array = [-i for i in arr]
