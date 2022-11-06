@@ -1,3 +1,10 @@
+'''
+                 Problem Definition
+Given a circular list of gas stations, where we can go from a station i to the station i+1, and the last one goes back to the first one,
+find the index of the station from where we start to be able to traverse all the stations and go back to the initial one without running
+out of gas.
+'''
+
 def canCompleteCircuit(gas,cost):
     index = 0
     remaining = 0
