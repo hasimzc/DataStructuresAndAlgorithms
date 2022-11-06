@@ -1,3 +1,0 @@
-C:/Users/LENOVO/CLionProjects/CircularLinkedList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/LENOVO/CLionProjects/CircularLinkedList/cmake-build-debug/CMakeFiles/CircularLinkedList.dir
-C:/Users/LENOVO/CLionProjects/CircularLinkedList/cmake-build-debug/CMakeFiles/edit_cache.dir
