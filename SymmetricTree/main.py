@@ -1,3 +1,7 @@
+'''
+                   Problem Definition
+Given a binary tree which is called root. Check if it is symmetric around its center (a mirror of itself).
+'''
 class Node:
     def __init__(self,data):
         self.data = data
