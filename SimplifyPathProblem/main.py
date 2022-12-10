@@ -4,7 +4,7 @@ here is the link of the problem https://leetcode.com/problems/simplify-path/subm
 
 class Solution:
     def simplifyPath(self, path: str) -> str:
-        stack = ['']
+        stack = []
         path.replace('//','/')
         path = path.split('/')
         for p in path:
@@ -18,10 +18,5 @@ class Solution:
             else:
                 stack.append(p)
         string = '/'.join(stack)
-        if len(string) > 1 and string[-1] == '/':
-            string = string[:-1] # removes last '/' 
-        if len(string) > 0 and string[0] != '/':
-            string = '/' + string
-        if len(string) == 0:
-            return '/'
+        string = '/' + string
         return string
